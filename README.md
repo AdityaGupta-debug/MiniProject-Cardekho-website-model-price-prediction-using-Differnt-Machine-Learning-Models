@@ -1,26 +1,40 @@
-📊 About the Dataset
+🚗 CarDekho Dataset - Price Prediction
+📖 About the Dataset
+The CarDekho Dataset from Kaggle contains detailed information about used cars, including their brand, model, manufacturing year, fuel type, seller type, and several other features. 🛣️🚙
 
-🚗 Context
-This dataset contains information about used cars to help predict their selling prices 💰.
-It is commonly used in regression tasks in machine learning to model the relationship between a car’s features and its market value.
+The primary objective of this dataset is to predict the selling price of a used car based on its features. This dataset is perfect for practicing regression tasks and understanding how different factors influence car prices in the Indian market. 🇮🇳
 
-Whether you're a data scientist looking to practice regression or a business analyst aiming to understand pricing trends, this dataset is a great start! 📉📈
+🎯 Objective
+Goal: Build machine learning models to accurately predict the selling price of used cars using various regression techniques.
 
-📦 Content
-The dataset includes various attributes such as brand, year, fuel type, transmission, mileage, and more — all of which influence a car’s resale value. 🚙💸
+🛠️ What I Did
+✅ Performed Data Cleaning & Preprocessing
 
-🧾 Columns Explained:
-🏷️ Name: Name of the car (often includes brand and model)
+📊 Exploratory Data Analysis (EDA) to discover relationships between features
 
-📅 Year: Year the car was manufactured
+🏷️ Encoded categorical variables for machine learning compatibility
 
-🛣️ Kilometers_Driven: Distance the car has been driven (in km)
+⚖️ Handled missing values and outliers where necessary
 
-⛽ Fuel_Type: Type of fuel used (Petrol, Diesel, CNG, LPG, Electric)
+📈 Tried multiple algorithms to find the best fit for the data:
 
-⚙️ Transmission: Gear system (Manual / Automatic)
+📐 Linear Regression
 
-🚘 Owner_Type: Ownership status (First, Second, Third, etc.)
+🔵 Ridge Regression (L2 Regularization)
 
-🎯 Target Variable
-Price: The predicted selling price of the used car in lakhs or INR (based on dataset)
+🔴 Lasso Regression (L1 Regularization)
+
+📍 K-Nearest Neighbors (KNN)
+
+🌳 Decision Tree Regressor
+
+🌲 Random Forest Regressor
+
+🏆 Result: Random Forest performed the best ✅, giving the most accurate predictions due to its ability to handle non-linearity and feature interactions efficiently.
+
+📌 Key Learnings
+Regularized models like Ridge and Lasso helped reduce overfitting but didn’t outperform tree-based models.
+
+Decision Trees provided interpretability, but suffered from overfitting alone.
+
+Random Forest provided the best balance between bias and variance, handling categorical variables and capturing complex patterns in the data.
