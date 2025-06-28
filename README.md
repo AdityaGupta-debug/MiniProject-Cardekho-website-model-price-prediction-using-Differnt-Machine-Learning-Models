@@ -10,7 +10,7 @@ The dataset is sourced from **Kaggle** and contains detailed information about u
 
 - Car brand and model  
 - Year of manufacture  
-- Fuel type (Petrol, Diesel, etc.)
+- Fuel type (Petrol, Diesel, etc.)  
 - Seller type (Dealer or Individual)  
 - Transmission type  
 - Number of kilometers driven  
@@ -34,13 +34,13 @@ Build and evaluate multiple machine learning models to **predict the selling pri
 - 🏷️ Encoded categorical variables for ML compatibility  
 - ⚖️ Handled missing values and outliers  
 - 📈 Applied multiple regression algorithms:
-
   - 📐 Linear Regression  
   - 🔵 Ridge Regression (L2 Regularization)  
   - 🔴 Lasso Regression (L1 Regularization)  
   - 📍 K-Nearest Neighbors (KNN)  
   - 🌳 Decision Tree Regressor  
   - 🌲 Random Forest Regressor  
+  - 🚀 Gradient Boosting Regressor
 
 ---
 
@@ -48,10 +48,18 @@ Build and evaluate multiple machine learning models to **predict the selling pri
 
 The **Random Forest Regressor** delivered the best performance, offering the most accurate price predictions thanks to its ability to handle non-linearity and capture feature interactions effectively.
 
+The **Gradient Boosting Regressor** also performed well and showed strong generalization by iteratively correcting prediction errors from previous models.
+
 ---
 
 ## 📌 Key Learnings
 
 - 🧩 Regularized models like Ridge and Lasso helped reduce overfitting but didn’t outperform tree-based models  
 - 🌴 Decision Trees were interpretable but prone to overfitting when used alone  
-- 🌲 Random Forest struck the best balance between **bias and variance**, efficiently handling mixed data types and complex patterns
+- 🌲 Random Forest struck the best balance between **bias and variance**, efficiently handling mixed data types and complex patterns  
+- 🚀 Gradient Boosting showed how boosting can improve model accuracy by focusing on harder-to-predict samples
+
+---
+
+## 📂 Folder Structure
+
