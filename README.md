@@ -30,8 +30,8 @@ Build and evaluate multiple machine learning models to **predict the selling pri
 ## 🛠️ What I Did
 
 - ✅ Data cleaning and preprocessing  
-- 📊 Performed Exploratory Data Analysis (EDA) to understand feature relationships  
-- 🏷️ Encoded categorical variables for ML compatibility  
+- 📊 Performed Exploratory Data Analysis (EDA)  
+- 🏷️ Encoded categorical variables  
 - ⚖️ Handled missing values and outliers  
 - 📈 Applied multiple regression algorithms:
   - 📐 Linear Regression  
@@ -40,26 +40,26 @@ Build and evaluate multiple machine learning models to **predict the selling pri
   - 📍 K-Nearest Neighbors (KNN)  
   - 🌳 Decision Tree Regressor  
   - 🌲 Random Forest Regressor  
-  - 🚀 Gradient Boosting Regressor
+  - 🚀 Gradient Boosting Regressor  
+  - ⚡ **AdaBoost Regressor**  
+  - 💥 **XGBoost Regressor**
 
 ---
 
-## 🏆 Result
+## 🏆 Results
 
-The **Random Forest Regressor** delivered the best performance, offering the most accurate price predictions thanks to its ability to handle non-linearity and capture feature interactions effectively.
-
-The **Gradient Boosting Regressor** also performed well and showed strong generalization by iteratively correcting prediction errors from previous models.
+- ✅ **XGBoost Regressor** gave the **best performance** with approximately **94% accuracy** (R² score), thanks to its ability to handle non-linearity, regularization, and boosting power.
+- 🌲 **Random Forest** was also strong, striking a great balance between **bias and variance**.
+- 🚀 **Gradient Boosting** closely followed, performing well by improving residuals iteratively.
+- ⚡ **AdaBoost** showed decent accuracy but underperformed compared to Random Forest and XGBoost.
+- 🧩 Regularized models like Ridge and Lasso helped reduce overfitting but weren’t top performers.
+- 📍 KNN and Linear Regression were the weakest due to their limitations in capturing non-linearities.
 
 ---
 
 ## 📌 Key Learnings
 
-- 🧩 Regularized models like Ridge and Lasso helped reduce overfitting but didn’t outperform tree-based models  
-- 🌴 Decision Trees were interpretable but prone to overfitting when used alone  
-- 🌲 Random Forest struck the best balance between **bias and variance**, efficiently handling mixed data types and complex patterns  
-- 🚀 Gradient Boosting showed how boosting can improve model accuracy by focusing on harder-to-predict samples
-
----
-
-## 📂 Folder Structure
-
+- Tree-based ensemble models are generally more powerful for structured tabular data.
+- Boosting algorithms (like XGBoost and Gradient Boosting) can outperform bagging (like Random Forest) with proper tuning.
+- Regularization (Ridge, Lasso) is helpful but may not always outperform more complex models.
+- Feature engineering and EDA significantly affect model performance.
