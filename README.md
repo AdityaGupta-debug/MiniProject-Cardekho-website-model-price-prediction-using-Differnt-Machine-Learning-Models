@@ -63,8 +63,3 @@ Build and evaluate multiple machine learning models to **predict the selling pri
 - Boosting algorithms (like XGBoost and Gradient Boosting) can outperform bagging (like Random Forest) with proper tuning.
 - Regularization (Ridge, Lasso) is helpful but may not always outperform more complex models.
 - Feature engineering and EDA significantly affect model performance.
-
----
-
-## 📂 Folder Structure
-
