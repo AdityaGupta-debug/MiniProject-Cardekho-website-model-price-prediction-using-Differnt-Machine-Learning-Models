@@ -11,7 +11,7 @@ The dataset is sourced from **Kaggle** and contains detailed information about u
 - Car brand and model  
 - Year of manufacture  
 - Fuel type (Petrol, Diesel, etc.)  
-- Seller type (Dealer or Individual)  
+- Seller type (Dealer or Individual)
 - Transmission type  
 - Number of kilometers driven  
 - Ownership status  
